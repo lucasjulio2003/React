@@ -10,7 +10,7 @@
     <h2>Página de Lucas júlio</h2>
     <h3>Sobre mim:</h3>
     <p>Sou de Livramento de Nossa Senhora - BA, tenho 20 anos e estou no segundo semestre do curso de Ciência da Computação.</p>
-    <img height='300' src='C:\Users\Lucas\Downloads\minha_foto.jpg'>
+    <img height='300' src='Captura de tela de 2023-09-20 06-16-47.png'>
     <hr>
     <h3>Coisas interessantes sobre mim:</h3>
     <ul>
@@ -41,7 +41,20 @@
         <li>Um site</li>
     </ul>
     <hr>
-    <img src="C:\Users\Lucas\Downloads\fim.jpeg" align="left">
+    <h3>Questionário</h3>
+    <form>
+      <p>Digite seu nome:</p>
+      <input id="nome" name="nome" type="text" placeholder="Seu nome"></input>
+      <p>Digite sua idade:</p>
+      <input id="idade" name="idade" type="text" placeholder="Sua idade"></input>
+      <p>Escolha:</p>
+      <input id="Barcelona" type="radio" name="time">Barcelona</input>
+      <input id="Real Madrid" type="radio" name="time">Real Madrid</input>
+      <input type="radio" id="Vasco" name="time">Vasco</input>
+    </form>
   </tt>
+  <script type="text/javascript" src="func.js">
+  </script>
+  <button onclick="validar()" type="submit" name="mandar">Enviar</button>
 </body>
 </html>
